@@ -76,11 +76,11 @@ const HomePage = () => {
       <div className="row">
           <h3 className="text-xl font-bold text-center mb-6">ACCOMODATION SUITES</h3><hr />
           <div className="col-md-4">
-            <img src="assets/images/Tree H1.jpeg"  height={300} width={300}/>  
+            <img src="assets/images/h1.jpeg"  height={300} width={300}/>  
             <h5>Tree House</h5>
             <p>"A cozy, elevated retreat nestled in trees, featuring wooden walls, windows, and a peaceful atmosphere."</p></div> 
           <div className="col-md-4">
-          <img src="assets/images/Cottage lookout tower 3.jpeg"  height={300} width={300}/>
+          <img src="assets/images/h2.jpeg"  height={300} width={300}/>
             <h5>Cottage Tower</h5>
             <p>"Escape to a unique cottage tower getaway—breathtaking views, cozy interiors, and a peaceful retreat experience."</p>
           </div>   
