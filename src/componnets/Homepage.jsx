@@ -53,9 +53,7 @@ const HomePage = () => {
             </div>
         </div>
       </section>
-        {/* <!e--carousl controls ends here  --> */}
-
-        
+        {/* <!e--carousl controls ends here  --> */}  
 
       <div className="row">
       <h3 className="text-xl font-bold mb-6">🥂COMPLIMENTS🍽</h3><hr />
@@ -74,27 +72,23 @@ const HomePage = () => {
           "Experience the exquisite stiletto wrap—crispy, succulent, and bursting with a tantalizing fusion!""<br />
             </div>
       </div><hr />  
+
       <div className="row">
           <h3 className="text-xl font-bold text-center mb-6">ACCOMODATION SUITES</h3><hr />
-          <div className="col-md-3">
-            <img src="assets/images/Topple Tower 6.jpeg"  height={430} width={285}/>  
+          <div className="col-md-4">
+            <img src="assets/images/Tree H1.jpeg"  height={300} width={300}/>  
             <h5>Tree House</h5>
             <p>"A cozy, elevated retreat nestled in trees, featuring wooden walls, windows, and a peaceful atmosphere."</p></div> 
-          <div className="col-md-3">
-          <img src="assets/images/Topple Tower 5.jpeg"  height={410} width={285}/>
+          <div className="col-md-4">
+          <img src="assets/images/Cottage lookout tower 3.jpeg"  height={300} width={300}/>
+            <h5>Cottage Tower</h5>
+            <p>"Escape to a unique cottage tower getaway—breathtaking views, cozy interiors, and a peaceful retreat experience."</p>
+          </div>   
+          <div className="col-md-4">
+          <img src="assets/images/Topple Tower 5.jpeg"  height={300} width={300}/>
             <h5>Clifface Tower</h5>
             <p>"A breathtaking house dramatically perched on a sheer rockface, with panoramic views and stunning architecture."</p>
           </div>
-          <div className="col-md-3">
-          <img src="assets/images/Cottage lookout tower 3.jpeg"  height={430} width={285}/>
-            <h5>Cottage Tower</h5>
-            <p>"Escape to a unique cottage tower getaway—breathtaking views, cozy interiors, and a peaceful retreat experience."</p>
-          </div>
-          <div className="col-md-3">
-          <img src="assets/images/Tower Mania 4.jpeg"  height={410} width={285}/>
-            <h5>Leaf Fall Tower</h5>
-            <p>"A charming house nestled in the heart of an autumn forest, surrounded by vibrant, falling leaves."</p>
-          </div>     
       </div><hr />
 
       <div className="row" id="A">
@@ -106,10 +100,8 @@ const HomePage = () => {
           </div>
         <div className="col-md-4" id="C">
         The company specializes in crafting custom-built getaway homes, allowing you to design a space that reflects your personal vision. From the initial concept to the final touches, every aspect of the home is tailored to your exact desires. They offer detailed reports, including images, that outline the entire process—highlighting the challenges faced and the innovative solutions found along the way. With a strong focus on personalization, each home is unique, built specifically to cater to your needs and preferences. Whether it’s the layout, materials, or design elements, every detail is custom-made to create a DREAM just for YOU.
-        <br /><br /><br />
-        <button className="btn btn-outline-success m-4 custom-button">
-          Sketch Your Own Dream HOME 📐
-         </button>
+        <br /><br /><br /><br />
+
         </div>
         <div className="col-md-4">
         <img src="assets/images/house 1.1.jpeg"  height={180} width={200}/>
@@ -118,8 +110,27 @@ const HomePage = () => {
         
          </div>
       </div>
-      <br />
 
+      <div className="row" id="A">
+        <hr />
+        <div className="col-md-4">
+          <h3 id="B">2.Sample Project</h3>
+          <img src="assets/images/H2.jpeg"  height={300} width={300}/><br />
+          </div>
+        <div className="col-md-4" id="C">
+        This company specializes in crafting custom-built wooden frame homes, offering a unique and personalized approach to creating the perfect getaway. With a focus on blending natural aesthetics and modern design, each home is tailored to meet the specific needs and preferences of the owner. From the initial concept to the final touches, every detail is carefully considered to ensure the home feels like an ideal retreat. The use of high-quality wood not only enhances the beauty of the structure but also ensures durability and comfort. Throughout the building process, detailed reports and images are provided, showcasing progress and highlighting solutions to challenges faced.
+        <br /><br /><br />
+        <button className="btn btn-outline-success m-4 custom-button">
+          Sketch Your Own Dream HOME 📐
+         </button>
+        </div>
+        <div className="col-md-4">
+        <img src="assets/images/H2.1.jpeg"  height={180} width={200}/>
+        <br /><br />
+        <img src="assets/images/H2.2.jpeg"  height={180} width={200}/>
+        
+         </div>
+      </div>
 
       {/* Contact Section */}
       <div className="row">

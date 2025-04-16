@@ -18,10 +18,23 @@ function App() {
           El-Mun Glamping
           </h2>
         </header>
-        <nav>
-        <Link to={'/Homepage'} className='btn btn-danger m-2 px-4'>Home 🚪</Link>
-        <Link to= {'/Signup'} className='btn btn-dark m-2 px-4'>Signup</Link>
-        <Link to= {'/Login'} className='btn btn-secondary m-2 px-4'>Login</Link>
+        <nav class="navbar navbar-expand-xl navbar-light bg-danger">
+        <a href="App.js" class="navbar-brand">Elmun Glamping</a>
+        <button 
+          class="navbar-toggler" 
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarcontents"
+        >
+          <span class="navbar-toggler-icon"></span>
+        
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcontents">
+          <div class="navbar-nav">
+            <Link to={'/Homepage'} className='btn btn-danger m-2 px-4'>Home 🚪</Link>
+            <Link to= {'/Signup'} className='btn btn-dark m-2 px-4'>Signup</Link>
+            <Link to= {'/Login'} className='btn btn-secondary m-2 px-4'>Login</Link>
+          </div>
+        </div>  
         </nav>
           <Routes>
             <Route path='/signup' Component={Signup}/>
@@ -34,5 +47,4 @@ function App() {
   );
 }
 
-export default App;
-
+export default App ;
