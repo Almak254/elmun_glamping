@@ -59,9 +59,16 @@ el1{
 
 #E{
   font-family:'Times New Roman', Times, serif;
+  color: #ffffff;
+  background: linear-gradient(to right, #123D2A, #1B5E3C, #2E7D44, #4F9D5D, #74B77B)
+}
+#F{
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding: 10px 0;
 }
 
-#F{
+#G{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
