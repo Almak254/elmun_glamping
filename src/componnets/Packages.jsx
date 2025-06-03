@@ -22,12 +22,14 @@ const Packages = () => {
             <br />
             <hr />
             <br />
-            <div className="row">
-                <div className="col-md-3">
-                    <h3>03</h3>
-                    <h3>Couples Package</h3>
-                     <p>Escape together on a dreamy couples getaway designed just for you. Experience intimate moments, luxurious comfort, and unforgettable memories. We promise your hearts will be full and your satisfaction absolutely guaranteed—love awaits your perfect escape.
-                    </p>
+
+
+        <div className="row">
+            <div className="col-md-3">
+                <h3>03</h3>
+                 <h3>Couples Package</h3>
+                 <p>Escape together on a dreamy couples getaway designed just for you. Experience intimate moments, luxurious comfort, and unforgettable memories. We promise your hearts will be full and your satisfaction absolutely guaranteed—love awaits your perfect escape.
+                </p>
             </div>
             <div className="col-md-3">
                 <img src="" alt="" />
