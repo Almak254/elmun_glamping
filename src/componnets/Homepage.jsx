@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-
-
 const HomePage = () => {
    
     const navigate = useNavigate();
@@ -112,10 +110,10 @@ const HomePage = () => {
          </div>
       </div>
 
-      {/* Contact Section */}
+
       <div className="row" id="E">        
-      <h3 id="F">EL-mun Farm</h3>
-      <p><i>Escape the rush of urban life with a luxurious retreat surronded b nature-where peace, comfort, and curated experiences help you relax, recharge and reconnect with what trully matters.</i></p>
+        <h3 id="F">EL-mun Farm</h3>
+        <p><i>Escape the rush of urban life with a luxurious retreat surronded b nature-where peace, comfort, and curated experiences help you relax, recharge and reconnect with what trully matters.</i></p>
           <div className="col-md-6">
           <footer className=" text-center py-8" id="G">
           <p></p>
@@ -126,10 +124,8 @@ const HomePage = () => {
           </footer>
           </div> 
           <div className="col-md-6"> 
-           
             <img src="assets/images/Logos.jpeg" width={180} height={95} />@elmunglamping
             <br /><br />
-
             <marquee behavior="slide" direction="left"><b>Like!💓, Comment!💬 And Share🗨</b></marquee>
           </div>
           <div className="text-start py-8">
@@ -144,7 +140,6 @@ const HomePage = () => {
               <br />
               Privacy Policy | Terms & conditions
             </p>
-            
           </div>
 
       </div>
